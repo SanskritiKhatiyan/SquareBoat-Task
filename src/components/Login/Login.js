@@ -21,12 +21,12 @@ const Login = () => {
   };
 
   const handleMail = (event) => {
-    if (validator.isEmail(event.target.value)) {
-      setMail(event.target.value);
-      setEmailError(false);
-    } else {
-      setEmailError(true);
-    }
+    // if (validator.isEmail(event.target.value)) {
+    setMail(event.target.value);
+    // setEmailError(false);
+    // } else {
+    //   setEmailError(true);
+    // }
   };
 
   const handlePass = (event) => {
